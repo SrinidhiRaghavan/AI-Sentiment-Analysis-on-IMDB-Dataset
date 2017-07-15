@@ -15,8 +15,12 @@ The Test Dataset is stored in the folder named 'test'
 
 
 
-## Data Representations Used ##
+## Data Preprocessing ##
 
+The training dataset in aclImdb folder has two sub-directories pos/ for positive texts and neg/ for negative ones. Use only these two directories. The first task is to combine both of them to a single csv file, “imdb_tr.csv”. The csv file has three columns,"row_number" and “text” and “polarity”. The column “text” contains review texts from the aclImdb database and the column “polarity” consists of sentiment labels, 1 for positive and 0 for negative. The file imdb_tr.csv is an output of this preprocessing. In addition, common English stopwords should be removed. An English stopwords reference ('stopwords.en') is given in the code for reference.
+
+
+## Data Representations Used  ##
 
 
 ## Algorithmic Overview ##
