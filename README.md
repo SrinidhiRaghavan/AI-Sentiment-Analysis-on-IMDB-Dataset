@@ -1,4 +1,18 @@
 # AI-Sentiment-Analysis-on-IMDB-Dataset
-Sentiment Analysis using Stochastic Gradient Descent on 50,000 Movie Reviews Compiled from the IMDB Dataset
 
-j
+
+## Introduction ##
+
+
+## Getting the Dataset ##
+
+
+## Data Representations Used ##
+
+## Code Overview ##
+
+## Environment ##
+
+## How to Execute/ ##
+
+## Results ##
